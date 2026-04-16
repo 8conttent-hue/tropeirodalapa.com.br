@@ -1,0 +1,52 @@
+---
+// About-I: Interactive Methodology Steps - Design de processo e método
+interface Stat { value: string; label: string; }
+interface Props {
+  title: string;
+  desc: string;
+  image: string;
+  btnText: string;
+  btnLink: string;
+  stats: Stat[];
+}
+const { title, stats } = Astro.props;
+
+// Itens de metodologia baseados nos stats ou mock
+const methods = stats.slice(0, 3).length === 3 ? stats.slice(0, 3) : [
+  { value: '01', label: 'Coleta de Dados' },
+  { value: '02', label: 'Análise Netnográfica' },
+  { value: '03', label: 'Intervenção' }
+];
+---
+<section class="py-24 bg-white border-y border-gray-100">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center mb-20">
+      <h2 class="text-4xl md:text-5xl font-black text-dark tracking-tighter mb-4">{title}</h2>
+      <div class="h-1 w-20 bg-primary mx-auto rounded-full mb-6"></div>
+      <p class="text-[10px] font-black uppercase tracking-[0.4em] text-gray-400">Nossa Metodologia de Trabalho</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-12 relative">
+      <!-- Connecting line for desktop -->
+      <div class="hidden md:block absolute top-[60px] left-0 right-0 h-px bg-gray-100 -z-0"></div>
+
+      {methods.map((m, i) => (
+        <div class="relative z-10 text-center group">
+          <div class="w-24 h-24 rounded-3xl bg-white border border-gray-100 shadow-sm flex items-center justify-center mx-auto mb-8 transition-all duration-500 group-hover:bg-primary group-hover:border-primary group-hover:scale-110 group-hover:rotate-3 shadow-xl group-hover:shadow-primary/20">
+             <span class="text-3xl font-black text-dark group-hover:text-white transition-colors">
+               {m.value.match(/\d+/) ? m.value : `0${i+1}`}
+             </span>
+          </div>
+          <h3 class="text-xl font-black text-dark mb-4 uppercase tracking-widest">{m.label}</h3>
+          <p class="text-sm text-gray-400 leading-relaxed font-medium px-4">
+            Aplicando rigor científico e cuidado humanizado em cada etapa do processo de análise e cuidado.
+          </p>
+          <!-- Decoration dot -->
+          <div class="mt-8 flex justify-center">
+             <div class="w-2 h-2 rounded-full bg-gray-100 group-hover:bg-primary transition-colors"></div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

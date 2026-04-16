@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "TROPEIRODALAPA — Bem-vindo ao Tropeiro da Lapa",
+    "description": "Conforto e natureza em um só lugar"
+  },
+  "hero": {
+    "title": "Bem-vindo ao Tropeiro da Lapa",
+    "subtitle": "Conforto e natureza em um só lugar",
+    "btnText": "Reserve agora",
+    "bgImage": "/images/hero.jpg",
+    "btnLink": "/blog"
+  },
+  "features": {
+    "title": "Nossas Exclusividades",
+    "items": [
+      {
+        "icon": "🌳",
+        "title": "Contato com a Natureza",
+        "desc": "Desfrute da tranquilidade em meio à natureza exuberante que cerca nossa localização."
+      },
+      {
+        "icon": "🏛️",
+        "title": "Estrutura Completa para Eventos",
+        "desc": "Auditório, sala de imprensa e salão de festas prontos para receber seu evento com todo o conforto."
+      },
+      {
+        "icon": "☕",
+        "title": "Café Aconchegante",
+        "desc": "Relaxe em nosso espaço de café enquanto aprecia a vista e a companhia."
+      },
+      {
+        "icon": "🏋️‍♂️",
+        "title": "Academia e Sauna",
+        "desc": "Mantenha-se ativo durante sua estadia com nossa academia totalmente equipada e aproveite a sauna relaxante."
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre o Tropeiro da Lapa",
+    "desc": "Localizado na entrada da cidade da Lapa, oferecemos um espaço que une conforto e respeito à natureza. Com uma estrutura projetada para atender os mais variados tipos de eventos, nosso objetivo é proporcionar momentos memoráveis aos nossos visitantes.",
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Anos de Experiência"
+      },
+      {
+        "value": "500+",
+        "label": "Eventos Realizados"
+      },
+      {
+        "value": "100%",
+        "label": "Satisfação do Cliente"
+      }
+    ],
+    "image": "/images/about.jpg",
+    "btnText": "Saiba Mais",
+    "btnLink": "/sobre"
+  },
+  "posts": {
+    "title": "Últimos Artigos",
+    "limit": 3,
+    "btnText": "Ver Blog",
+    "btnLink": "/blog"
+  }
+}

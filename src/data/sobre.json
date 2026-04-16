@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Sobre Nós",
+    "description": "Conheça o TROPEIRODALAPA"
+  },
+  "hero": {
+    "title": "Sobre Nós",
+    "subtitle": "Localizado na entrada da cidade da Lapa, oferecemos um espaço que une conforto e respeito à natureza. Com uma estrutura projetada para atender os mais variados tipos de eventos, nosso objetivo é proporcionar momentos memoráveis aos nossos visitantes."
+  },
+  "content": "No Tropeiro da Lapa, nossa missão é oferecer um espaço que una conforto, natureza e a melhor estrutura para eventos. Estamos comprometidos em atender cada cliente com atenção e cuidado, garantindo uma experiência única e inesquecível.",
+  "mission": "Criar experiências memoráveis que conectem pessoas à natureza e ao conforto.",
+  "image": "/images/sobre.jpg",
+  "stats": [
+    {
+      "value": "500+",
+      "label": "Artigos"
+    },
+    {
+      "value": "100k+",
+      "label": "Leitores"
+    },
+    {
+      "value": "5",
+      "label": "Redatores"
+    }
+  ],
+  "team": []
+}

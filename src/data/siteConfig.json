@@ -1,0 +1,53 @@
+{
+  "name": "TROPEIRODALAPA",
+  "slug": "tropeirodalapa.com.br",
+  "description": "Localizado logo na entrada da cidade da Lapa, com todo conforto e comodidade, aliada a tranquilidade e contato com a natureza… Com toda estrutura para atender você e seu evento ou palestra… Auditório Sala de Imprensa Salão de Festas Aconchegante sala de café Academia Sauna Organizamos Casamentos, Palestras e eventos em geral, entre em contato…",
+  "url": "https://tropeirodalapa.com.br",
+  "niche": "Viagens e Turismo",
+  "keywords": "Localizado logo na entrada da cidade da Lapa com todo conforto e",
+  "email": "contato@tropeirodalapa.com.br",
+  "palette": "sunset",
+  "colors": {
+    "primary": "#f97316",
+    "accent": "#c2410c",
+    "dark": "#431407"
+  },
+  "headerContrast": "light",
+  "font": "playfair",
+  "fontFamily": "'Playfair Display', serif",
+  "fontUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap",
+  "components": {
+    "header": "Header-B",
+    "hero": "Hero-I",
+    "features": "Features-E",
+    "about": "About-I",
+    "posts": "Posts-B",
+    "footer": "Footer-J",
+    "sobre": "Sobre-J",
+    "contato": "Contato-J"
+  },
+  "menu": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Sobre",
+      "href": "/sobre"
+    },
+    {
+      "label": "Contato",
+      "href": "/contato"
+    }
+  ],
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "twitter": "",
+    "youtube": ""
+  }
+}
